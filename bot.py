@@ -30,6 +30,6 @@ async def main():
     app.add_handler(CommandHandler("start", start))
     await app.run_polling()
 
-if name == "main":
+if__ name__ == "__main__":
     import asyncio
     asyncio.run(main())
